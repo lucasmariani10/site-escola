@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <title>Meu Site</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+  body {
+    background-color: #068D85;
+  }
+    * {
+      box-sizing: border-box;
+    }
+    .barra {
+      width: auto;
+      height: 50px;
+      background-color: #1CEB88;
+    }
+    .botoes {
+      display: flex;
+      justify-content: center;
+      margin-top: 10px;
+    }
+    .botao {
+      width: 100px;
+      height: 40px;
+      background-color: #635C5C;
+      border: none;
+      color: white;
+      font-size: 16px;
+      margin: 0 10px;
+    }
+    .conteudo {
+      display: flex;
+      justify-content: center;
+      margin-top: 10px;
+
+    }
+    .coluna-esquerda {
+        max-width: 50%;
+        justify-content: left;
+    }
+    .coluna-direita {
+
+      padding: 20px;
+    }
+    .imagem{
+      width: 180px;
+      height: 80px;
+      object-fit: cover;
+    }
+    .texto {
+      margin-top: 10px;
+    }
+    .titulo{
+      color: white;
+      position: absolute;
+      top: 0;
+      left: 5;
+      text-align: center;
+    }
+    .coluna-direita img {
+        max-width: 200px;
+        height: auto;
+    }
+    .texto {
+        background-color: #848484;
+    }
+  </style>
+</head>
+<body>
+  <div class="barra"></div>
+  <div class="botoes">
+    <a href="index2.html">
+    <button class="botao">Quem Somos</button>
+    </a>
+        <a href="index.html">
+    <button class="botao">E+scola e Alunos</button>
+    </a>
+    <a href="/">
+    <button class="botao">Opções</button>
+    </a>
+  </div>
+  <div class="conteudo">
+    <div class="coluna-esquerda">
+      <img src="imagem1.jpg"alt="Imagem" class="imagem">
+      
+      <div class="texto">
+        <p class="texto">Sobre o Colégio:</p>
+        <p class="texto"> Av 16 de Novembro, 300 Centro 84.435-000 - Guamiranga - Pr
+            Zona:
+            Urbana
+            Telefone:
+            (42) 3438-1197
+            Email:
+            guamfrancisco@seed.pr.gov.br
+            Fax:
+            (42) 3438-1197 </p>
+      </div>
+    </div>
+    <div class="coluna-direita">
+      <img src="imagem2.jpg" alt="Imagem 2" class="Imagem">
+      <img src="imagem3.jpg" alt="Imagem 3" class="Imagem">
+      <img src="imagem4.jpg" alt="Imagem 4" class="Imagem">
+    </div>
+  <div class="titulo">
+    <h2>Colégio Estadual Francisco Ramos 
+    </h2>
+  </div>
+</body>
+</html>
